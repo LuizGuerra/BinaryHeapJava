@@ -1,4 +1,4 @@
-# Binary Heap in Java langauge!
+# Binary Heap in Java language!
 
 
 This is an Binary Heap repository. This is pretty much straight forward.
