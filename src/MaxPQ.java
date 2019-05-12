@@ -22,8 +22,8 @@ public class MaxPQ < Key extends Comparable<Key> > {
 
     public Key delMax() {
         Key max = this.pq[1];
-        exchange(1, n--);
-        this.pq[n] = null;
+        exchange(1, n);
+        this.pq[n--] = null;
         sink(1);
         return max;
     }
